@@ -8,3 +8,10 @@ I can't seem to download a github action artifact in a worker but if you paste t
 2. `npm run dev`
 3. hit `http://127.0.0.1:8787`
 4. be sad the API call failed 😞
+
+
+### It working with normal `fetch`
+
+1. make a `.dev.vars` with a valid github pat named `GITHUB_TOKEN`
+2. `npm run working`
+4. be amazing the API call succeeds 😁

@@ -2,10 +2,12 @@
   "name": "fetch-with-github-artifacts",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev --port 8787",
     "start": "wrangler dev",
+    "working": "node --env-file=.dev.vars src/working.js",
     "test": "vitest",
     "cf-typegen": "wrangler types"
   },
